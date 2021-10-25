@@ -4,26 +4,25 @@
 The first data set in the project is an observational study of a random sample.
 It is contained in the file: 'observation_features.csv'.
 
-Symptoms (10 bits): Covid-Recovered, Covid-Positive, No-Taste/Smell, Fever, Headache, Pneumonia, Stomach, Myocarditis, Blood-Clots, Death
-Age (integer)
-Gender (binary)
-Income (floating)
-Genome (128 bits)
-Comorbidities (6 bits): Asthma, Obesity, Smoking, Diabetes, Heart disease, Hypertension
-Vaccination status (3 bits): 0 for unvaccinated, 1 for receiving a specific vaccine for each bit
+* Symptoms (10 bits): Covid-Recovered, Covid-Positive, No-Taste/Smell, Fever, Headache, Pneumonia, Stomach, Myocarditis, Blood-Clots, Death
+* Age (integer)
+* Gender (binary)
+* Income (floating)
+* Genome (128 bits)
+* Comorbidities (6 bits): Asthma, Obesity, Smoking, Diabetes, Heart disease, Hypertension
+* Vaccination status (3 bits): 0 for unvaccinated, 1 for receiving a specific vaccine for each bit
 
 
 The second is the result of interventions after the patients were found to be covid-positive. The patients may not necessarily have developed symptoms before the treatment was administered. The data is in three files, with each line corresponding to one patient:
 
-treatment_features.csv 
-treatment_action.csv
-treatment_outcome.csv
+* treatment_features.csv 
+* treatment_action.csv
+* treatment_outcome.csv
 
-The first file is just like the observation_features file in the first data set.
-The other two files describe the treatments and outcomes respectively.
+The first file is just like the observation_features file in the first data set. The other two files describe the treatments and outcomes respectively.
 
-Treatment (k bits): Multiple simultaneous treatments are possible 
-Post-Treatment Symptoms (10 bits): Past-Covid (Ignore), Covid+ (Ignore), No-Taste/Smell, Fever, Headache, Pneumonia, Stomach, Myocarditis, Blood-Clots, Death
+* Treatment (k bits): Multiple simultaneous treatments are possible 
+* Post-Treatment Symptoms (10 bits): Past-Covid (Ignore), Covid+ (Ignore), No-Taste/Smell, Fever, Headache, Pneumonia, Stomach, Myocarditis, Blood-Clots, Death
 
 ## Tasks:
 
