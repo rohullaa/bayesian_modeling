@@ -27,8 +27,8 @@ The first file is just like the observation_features file in the first data set.
 ## Tasks:
 
 1. Perform the following modelling tasks for the observational variables:
-a. Predicting the effect of genes and/or age/comorbidities on symptoms.
-b. Estimating the efficacy of vaccines.
-c. Estimating the probability of vaccination side-effects.
+   (a) Predicting the effect of genes and/or age/comorbidities on symptoms.
+   (b) Estimating the efficacy of vaccines.
+   (c) Estimating the probability of vaccination side-effects.
 
 2. Model the effect of treatments on alleviating symptoms (e.g. preventing death). By this I mean, (a) formalising, (b) implementing and (c) verifying some type of model that can predict the effects of different treatments on symptoms. (As in case 1, you must start by specifying what relationships you wish to model, then defining the precise model you wish to use, selecting or creating an implementation, using it on the data, and verifying it works appropriately through simulation and bootstrapping/cross-validation).
