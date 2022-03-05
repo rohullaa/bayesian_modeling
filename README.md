@@ -1,4 +1,4 @@
-# Bayesian Data Modelling
+# Bayesian Data Analysis
 
 ## Data
 The first data set in the project is an observational study of a random sample.
